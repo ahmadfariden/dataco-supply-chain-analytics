@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 25 — PROMOTION ANALYSIS
+-- PROMOTION ANALYSIS
 -- Tujuan: Analisis efektivitas promosi (proxy: discount_rate) terhadap
 --         Revenue dan Profit
 -- Catatan: dataset TIDAK punya kolom promosi eksplisit. discount_rate/
