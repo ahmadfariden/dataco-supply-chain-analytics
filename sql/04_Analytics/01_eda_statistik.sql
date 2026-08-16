@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 19 — EDA STATISTIK
+-- EDA STATISTIK
 -- Tujuan: Statistik deskriptif, outlier, dan korelasi antar variabel numerik
 -- ============================================================
 
