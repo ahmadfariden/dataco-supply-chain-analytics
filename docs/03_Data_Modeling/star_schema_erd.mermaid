@@ -1,0 +1,65 @@
+erDiagram
+    FACT_ORDERS {
+        bigint fact_order_key PK
+        varchar order_id
+        varchar order_item_id
+        int customer_key FK
+        int product_key FK
+        int region_key FK
+        int date_key FK
+        int shipping_key FK
+        varchar order_status
+        varchar delivery_status
+        int late_delivery_risk
+        double sales
+        int order_qty
+        double discount_amount
+        double discount_rate
+        double profit_ratio
+        double benefit_per_order
+        int shipping_days_actual
+        int shipping_days_scheduled
+    }
+    DIM_CUSTOMER {
+        int customer_key PK
+        varchar customer_id
+        varchar customer_segment
+        varchar customer_city
+        varchar customer_state
+        varchar customer_country
+    }
+    DIM_PRODUCT {
+        int product_key PK
+        varchar product_id
+        varchar product_name
+        varchar category_name
+        varchar department_name
+    }
+    DIM_REGION {
+        int region_key PK
+        varchar market
+        varchar order_region
+        varchar order_country
+        varchar order_state
+        varchar order_city
+    }
+    DIM_DATE {
+        int date_key PK
+        date full_date
+        int year
+        int quarter
+        int month_number
+        varchar month_name
+        int week_of_year
+        varchar day_of_week
+        boolean is_weekend
+    }
+    DIM_SHIPPING {
+        int shipping_key PK
+        varchar shipping_mode
+    }
+    DIM_CUSTOMER ||--o{ FACT_ORDERS : customer_key
+    DIM_PRODUCT  ||--o{ FACT_ORDERS : product_key
+    DIM_REGION   ||--o{ FACT_ORDERS : region_key
+    DIM_DATE     ||--o{ FACT_ORDERS : date_key
+    DIM_SHIPPING ||--o{ FACT_ORDERS : shipping_key
