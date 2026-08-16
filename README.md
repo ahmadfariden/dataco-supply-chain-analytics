@@ -61,7 +61,7 @@ Each phase follows a consistent documentation format: **Tujuan (Objective) → I
 
 ## 🏗️ Data Model — Star Schema
 
-<img src="screenshots/01_star_scema.png" alt="Star Schema" width="700"/>
+<img src="screenshots/01_star_schema.png" alt="Star Schema" width="700"/>
 
 - **Fact table**: `fact_orders` — grain: 1 row = 1 order item
 - **Dimensions**: `dim_customer`, `dim_product`, `dim_region`, `dim_date`, `dim_shipping`
