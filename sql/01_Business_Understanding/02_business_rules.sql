@@ -1,7 +1,5 @@
 -- ============================================================
--- STEP 14 — BUSINESS RULES
--- Tujuan: Dokumentasikan aturan bisnis & status validitas tiap metrik,
---         berdasarkan temuan Step 12-13
+---BUSINESS RULES
 -- ============================================================
 
 -- Tidak ada query baru di step ini — murni dokumentasi/rangkuman.
