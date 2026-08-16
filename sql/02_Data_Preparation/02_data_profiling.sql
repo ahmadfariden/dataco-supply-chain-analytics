@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 9 — DATA PROFILING
+-- DATA PROFILING
 -- Tujuan: Load data mentah & kenalan sama isi data (null, unique, duplikat, tanggal)
 -- ============================================================
 
