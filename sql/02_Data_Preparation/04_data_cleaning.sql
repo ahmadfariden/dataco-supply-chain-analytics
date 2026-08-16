@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 11 — DATA CLEANING
+-- DATA CLEANING
 -- Tujuan: Bikin tabel bersih (orders_clean) dengan tipe data yang benar
 --         dan nama kolom SQL-friendly (snake_case, tanpa spasi)
 -- ============================================================
