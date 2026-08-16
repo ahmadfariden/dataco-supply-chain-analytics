@@ -1,8 +1,3 @@
--- ============================================================
--- STEP 13 — KPI DESIGN
--- Tujuan: Hitung KPI inti dari orders_clean, dipetakan ke Sheet 1-5
--- ============================================================
-
 -- ===== 1. REVENUE LAYER (Sheet 1) =====
 
 SELECT ROUND(SUM(sales), 2) AS total_revenue FROM orders_clean;
