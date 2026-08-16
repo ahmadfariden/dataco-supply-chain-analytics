@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 10 — DATASET OVERVIEW
+-- DATASET OVERVIEW
 -- Tujuan: Pastikan kolom-kolom yang seharusnya numeric bisa dikonversi
 --         dengan aman, sebelum masuk ke Data Cleaning
 -- ============================================================
