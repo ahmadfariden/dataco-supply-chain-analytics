@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 8 — DATA COLLECTION
+-- DATA COLLECTION
 -- Tujuan: Identifikasi file mentah yang tersedia di folder project
 -- ============================================================
 
