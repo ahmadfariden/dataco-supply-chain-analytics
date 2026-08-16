@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 12 — DATA VALIDATION
+-- DATA VALIDATION
 -- Tujuan: Cek konsistensi bisnis pada orders_clean sebelum dipakai untuk KPI
 -- ============================================================
 
