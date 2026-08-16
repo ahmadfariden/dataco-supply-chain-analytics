@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 27 — PARQUET OPTIMIZATION LAYER
+-- PARQUET OPTIMIZATION LAYER
 -- Tujuan: Export orders_clean & seluruh mart ke format Parquet
 --         (siap dipakai untuk Power BI / Step 29-30)
 -- ============================================================
