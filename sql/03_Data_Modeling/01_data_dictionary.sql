@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 16 — DATA DICTIONARY
+-- DATA DICTIONARY
 -- Tujuan: Dokumentasikan definisi tiap kolom di orders_clean
 --         beserta status validitasnya (ref Step 14)
 -- ============================================================
