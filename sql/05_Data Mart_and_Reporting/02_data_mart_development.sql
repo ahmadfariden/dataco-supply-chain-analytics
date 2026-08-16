@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 28 — DATA MART DEVELOPMENT
+-- DATA MART DEVELOPMENT
 -- Tujuan: Membangun tabel siap pakai untuk dashboard/reporting,
 --         fokus ke metrik yang sudah tervalidasi (Step 14)
 -- ============================================================
