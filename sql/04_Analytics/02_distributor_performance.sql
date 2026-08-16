@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 23 — DISTRIBUTOR PERFORMANCE ANALYSIS
+-- DISTRIBUTOR PERFORMANCE ANALYSIS
 -- Tujuan: Analisis performa "distributor" (proxy: customer_id) —
 --         kontribusi, risiko churn, dan pola aktivitas
 -- Catatan: dataset pakai konsep Customer, bukan Distributor B2B.
